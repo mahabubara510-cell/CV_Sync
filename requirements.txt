@@ -17,5 +17,5 @@ pydantic
 reportlab
 pypdf
 python-multipart
-tqdm=
+tqdm
 langchain-google-genai
