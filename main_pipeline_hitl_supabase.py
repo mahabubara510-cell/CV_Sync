@@ -30,16 +30,16 @@ GROQ_API = os.environ.get("GROQ_API") or os.environ.get("GROQ_API_KEY")
 
 
 # Model
-#llm = ChatGroq(
-#    model="openai/gpt-oss-120b",
-#    api_key=GROQ_API,
-#    temperature=0,
-#)
-
-llm = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash",
-    api_key=os.environ.get("GOOGLE_API_KEY"),
+llm = ChatGroq(
+    model="openai/gpt-oss-120b",
+    api_key=GROQ_API,
+    temperature=0,
 )
+
+#llm = ChatGoogleGenerativeAI(
+#    model="gemini-2.5-flash",
+#    api_key=os.environ.get("GOOGLE_API_KEY"),
+#)
 
 # ============================================================================
 # PARSERS
