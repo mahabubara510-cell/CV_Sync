@@ -31,7 +31,7 @@ GROQ_API = os.environ.get("GROQ_API") or os.environ.get("GROQ_API_KEY")
 
 # Model
 llm = ChatGroq(
-    model="openai/gpt-oss-120b",
+    model="qwen/qwen3-32b",
     api_key=GROQ_API,
     temperature=0,
 )
