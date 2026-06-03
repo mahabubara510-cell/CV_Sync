@@ -31,7 +31,7 @@ GROQ_API = os.environ.get("GROQ_API") or os.environ.get("GROQ_API_KEY")
 
 # Model
 llm = ChatGroq(
-    model="qwen/qwen3-32b",
+    model="llama-3.3-70b-versatile",
     api_key=GROQ_API,
     temperature=0,
 )
